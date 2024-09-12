@@ -4,7 +4,7 @@ import bgImg from "../../assets/bg.jpg";
 function Hero() {
   return (
           <div
-          className="bg-cover w-full min-h-screen flex items-center justify-start text-center mt-[-51px]"
+          className="bg-cover w-full min-h-screen flex items-center justify-start text-center mt-[-80px]"
           style={{ backgroundImage: `url(${bgImg})` }}
         >
           <div className="max-w-lg pl-8 flex flex-col text-start p-4 mb-10">

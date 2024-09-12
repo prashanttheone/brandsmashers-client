@@ -18,7 +18,7 @@ function Nav() {
     <div>
       {/* Navigation bar */}
       <div
-        className="relative flex items-center justify-between bg-cover w-full pt-6 pl-6 pr-3"
+        className="relative flex items-center justify-between bg-cover w-full pt-6 pl-6 pr-3 shadow-sm shadow-gray-900 h-[80px] pb-5 "
         style={{ backgroundImage: `url(${bgImg})` }}
       >
         <h1 className="text-[18px] font-bold text-white">BRANDSMASHERS</h1>

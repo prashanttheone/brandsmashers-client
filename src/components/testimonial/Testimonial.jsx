@@ -33,34 +33,34 @@ var settings = {
 function Testimonial() {
   const Items = [
     {
-      img: "https://www.livehindustan.com/lh-img/uploadimage/library/2024/01/15/16_9/16_9_6/ram_ji_1705330739.jpg",
-      name: "John Doe",
-      designation: "CEO, Example Co.",
+      img: '/1.jpg',
+      name: "Alvara Atkins",
+      designation: "CEO",
       message:
-        "This company provided excellent service and delivered exceptional results!",
+        "The team at Brandsmashers transformed ouroutdated systems into a seamless digital ecosystem,revolutionizing our operations.",
     },
     {
-      img: "https://www.livehindustan.com/lh-img/uploadimage/library/2024/01/15/16_9/16_9_6/ram_ji_1705330739.jpg",
+      img: '/3.jpg',
       name: "Jane Smith",
       designation: "Marketing Head, XYZ Ltd.",
       message:
-        "Highly recommended for their professionalism and commitment to customer satisfaction.",
+        "Highly recommended for their With Brandsmashers innovative software solutions,we've experienced unparalleled efficiency and growth in our business.professionalism and commitment to customer satisfaction.",
     },
     {
-      img: "https://www.livehindustan.com/lh-img/uploadimage/library/2024/01/15/16_9/16_9_6/ram_ji_1705330739.jpg",
-      name: "Mike Johnson",
-      designation: "CTO, TechCorp",
+      img: '/3.jpg',
+       name: "Alizee Bonita",
+      designation: "Director of Operations",
       message:
-        "Great experience working with this team. They exceeded our expectations.",
+        "Thanks to Brandsmasher expertise, our transition to the cloud was smooth and seamless, resulting insignificant cost savings and improved scalability",
     },
   ];
 
   return (
     <div className="bg-white w-full pt-20 p-10 lg:mx-10 ">
-      <h1 className="text-3xl sm:text-4xl font-bold text-[#7645FF] mb-4 text-center">
+      <h1 className="text-3xl sm:text-4xl font-bold text-[#7645FF] mb-4 text-center mt-10">
         Testimonial
       </h1>
-      <p className="text-center text-xl">
+      <p className="text-center text-xl mb-10">
         Explore testimonials that highlight our dedication to exceeding client
         expectations and delivering exceptional results.
       </p>
@@ -76,7 +76,7 @@ function Testimonial() {
                 <img
                   src={item.img}
                   alt={item.name}
-                  className="w-[100px] h-[100px] rounded-md mr-4"
+                  className="w-[100px] h-[100px] object-cover rounded-md mr-4"
                 />
                 <div>
                   <h2 className="text-xl font-semibold">{item.name}</h2>

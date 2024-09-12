@@ -56,7 +56,8 @@ function Testimonial() {
   ];
 
   return (
-    <div className="bg-white w-full pt-20 p-10 lg:mx-10 ">
+    <>
+    <div className="bg-white w-full pt-20 p-10  ">
       <h1 className="text-3xl sm:text-4xl font-bold text-[#7645FF] mb-4 text-center mt-10">
         Testimonial
       </h1>
@@ -89,6 +90,7 @@ function Testimonial() {
         </Slider>
       </div>
     </div>
+    </>
   );
 }
 

@@ -12,7 +12,7 @@ function Home() {
     <>
       <Hero />
       <Tech />
-      <Testimonial />
+      <Testimonial/>
     </>
   );
 }

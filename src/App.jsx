@@ -12,10 +12,10 @@ function App() {
     <>
     
   <Nav></Nav>
-  {/* <Hero></Hero> */}
+  <Hero></Hero>
   <Contact></Contact>
-  {/* <Tech></Tech> */}
-  {/* // <Testimonial></Testimonial> */}
+  <Tech></Tech>
+  // <Testimonial></Testimonial>
   <Footer></Footer>
     </>
   )

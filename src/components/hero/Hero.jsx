@@ -7,7 +7,7 @@ function Hero() {
           className="bg-cover w-full min-h-screen flex items-center justify-start text-center mt-[-51px]"
           style={{ backgroundImage: `url(${bgImg})` }}
         >
-          <div className="max-w-lg pl-8 flex flex-col text-start p-4">
+          <div className="max-w-lg pl-8 flex flex-col text-start p-4 mb-10">
             <p className="text-white text-[18px] font-bold text-start"> 
               Unlocking Innovation: Tailored Tech Solutions
             </p>

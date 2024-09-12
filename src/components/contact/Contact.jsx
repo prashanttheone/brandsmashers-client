@@ -33,7 +33,7 @@ function Contact() {
   return (
     <>
       <div
-        className="bg-cover w-full h-screen flex flex-col items-center text-center mt-[-51px]"
+        className="bg-cover w-full h-screen flex flex-col items-center text-center mt-[-80px]"
         style={{ backgroundImage: `url(${bgImg})` }}
       >
         {/* Contact Header Section */}

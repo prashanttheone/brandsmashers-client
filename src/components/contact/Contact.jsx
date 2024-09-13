@@ -24,7 +24,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
       try {
-      const response = await axios.post('http://localhost:3000/save/save', formData)
+      const response = await axios.post('https://brandshmers-server.vercel.app/save/save', formData)
    
         setFormData({
       name: "",

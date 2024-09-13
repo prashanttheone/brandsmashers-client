@@ -30,7 +30,10 @@ function Contact() {
       name: "",
       email: "",
       message: "",
-    });}
+    });
+         console.log("Response:", response);
+    console.log("Form Data Submitted:", formData); 
+      }
     catch (err){
       console.log("Error",err);
     }

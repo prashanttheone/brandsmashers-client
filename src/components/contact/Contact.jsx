@@ -1,3 +1,4 @@
+import axios from 'axios'; // Import axio
 import React,{useState} from "react";
 import bgImg from "../../assets/bg.jpg";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -19,14 +20,20 @@ function Contact() {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-  const handleSubmit = (e) => {
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form Data Submitted:", formData);
-    setFormData({
+      try {
+      const response = await axios.post('http://localhost:3000/save/save', formData)
+   
+        setFormData({
       name: "",
       email: "",
       message: "",
-    });
+    });}
+    catch (err){
+      console.log("Error",err);
+    }
   };
 
    
